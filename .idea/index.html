@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tavs Vārds - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<script src="main.js"> </script>
+
+<div class="container">
+  <!-- Header -->
+  <header>
+    <div class="profile-img">
+      <i class="fas fa-user"></i>
+    </div>
+    <h1>Artis Vecvagars</h1>
+    <p class="subtitle">Web Developer | Programmētājs | Programmēšanas tehniķis P2-2</p>
+    <div class="social-links">
+      <a href="https://github.com/Rogabc" target="_blank">
+        <i class="fab fa-github"></i>
+        GitHub
+      </a>
+
+      <a href="mailto:dddvecvagars@gmail.com">
+        <i class="fas fa-envelope"></i>
+        E-pasts
+      </a>
+    </div>
+  </header>
+
+
+  <!-- Par mani -->
+  <section class="section">
+    <h2><i class="fas fa-user-circle"></i> Par mani</h2>
+    <div id="about-content">
+
+    </div>
+  </section>
+
+  <!-- Projekti -->
+  <section class="section">
+    <h2><i class="fas fa-code"></i> Mani Projekti</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Portfolio Mājaslapa</h3>
+        <p>Personīgā portfolio mājaslapa, kas izveidota ar HTML, CSS un JavaScript. Responsīvs dizains ar modernām animācijām.</p>
+        <div class="project-links">
+          <a href="https://github.com/Rogabc/Portfolio" target="_blank">
+            <i class="fab fa-github"></i>
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Gausa kalkulators</h3>
+        <p>Izveidots Guasa kalkulators kas spēj atrisināt daudz un dažādus vienādojumus</p>
+        <div class="project-links">
+          <a href="https://github.com/Rogabc/Gaussian-elimination-calculator" target="_blank">
+            <i class="fab fa-github"></i>
+            GitHub
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <h3>BOLTOW</h3>
+        <P>Skolas paraktiskais darbs kur ir izveidots funkcionals ēdiena pasūtīšanas lapa</P>
+        <div class="project-links">
+          <a href="https://github.com/Rogabc/Practial_2_year" target="_blank">
+            <i class="fab fa-github"></i>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prasmes -->
+  <section class="section">
+    <h2><i class="fas fa-cogs"></i> Manas Prasmes</h2>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <div class="skill-icon">🌐</div>
+        <h3>HTML5</h3>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">🎨</div>
+        <h3>CSS3</h3>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">⚡</div>
+        <h3>JavaScript</h3>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">🐍</div>
+        <h3>Python</h3>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">📝</div>
+        <h3>Git</h3>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">💻</div>
+        <h3>GitHub</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakti -->
+  <section class="section">
+    <h2><i class="fas fa-envelope"></i> Sazinies ar mani</h2>
+    <form class="contact-form" onsubmit="handleSubmit(event)">
+      <div class="form-group">
+        <label for="name">Vārds:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">E-pasts:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Ziņojums:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">
+        <i class="fas fa-paper-plane"></i>
+        Nosūtīt ziņojumu
+      </button>
+    </form>
+  </section>
+</div>
+
+c
+</body>
+</html>
